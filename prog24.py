@@ -13,4 +13,3 @@ match codigo:
         print("Erro no servidor: nosso sistema esta instavel no momento.")
     case _:
         print("Codigo invalido = codigo HTTP (codigo_status) desconhecido.")
-        
