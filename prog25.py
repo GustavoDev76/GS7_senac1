@@ -24,3 +24,4 @@ match operador:
     case _:
         print("Operador invalido")
         print("teste de PULL")
+        print("teste de push pelo vscode")

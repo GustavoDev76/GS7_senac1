@@ -14,3 +14,4 @@ match codigo:
     case _:
         print("Codigo invalido = codigo HTTP (codigo_status) desconhecido.")
 print("teste de commit")
+print("teste de push pelo vscode")
