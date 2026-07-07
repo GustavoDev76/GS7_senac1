@@ -25,3 +25,4 @@ match operador:
         print("Operador invalido")
         print("teste de PULL")
         print("teste de push pelo vscode")
+        print("teste de push pelo vscode 2")
