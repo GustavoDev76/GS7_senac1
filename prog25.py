@@ -26,3 +26,4 @@ match operador:
         print("teste de PULL")
         print("teste de push pelo vscode")
         print("teste de push pelo vscode 2")
+        print("te amo muito gszada_do_01")
