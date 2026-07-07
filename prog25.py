@@ -23,3 +23,4 @@ match operador:
             print("Divisao por 0!!!")
     case _:
         print("Operador invalido")
+        print("teste de PULL")
