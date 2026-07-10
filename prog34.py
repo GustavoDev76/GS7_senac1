@@ -5,4 +5,3 @@ for i in range (5):
         print(f"{numero} é impar")
     else:
         print(f"{numero} é par")
-
