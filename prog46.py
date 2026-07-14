@@ -27,9 +27,9 @@ while pedido != "0":
         print("Nao existe esse Item no cardapio. Desculpe!")
     pedido = str(input("escolha outro item do cardapio (0 - para finalizar o pedido): "))
     
-print("--- PEDIDO FINALIZADO")
-print(f"O valor total do pedido: {valor}")
+print("---PEDIDO FINALIZADO---")
+print(f"O valor total do pedido: R${valor}")
 
 print("---COM 10% DE DESCONTO---")
 valor_desconto = valor * 0.9
-print(f"O valor total do pedido com 10 de desconto: {valor_desconto}")
+print(f"O valor total do pedido com 10 de desconto: R${valor_desconto}")
