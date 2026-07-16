@@ -1,5 +1,5 @@
 # USANOD (FOR)
-numero = int(input("digite um numero: "))
+###numero = int(input("digite um numero: "))
 for i in range (1, 10):
     print(f"{numero} X {i} = {numero * i}")
 
