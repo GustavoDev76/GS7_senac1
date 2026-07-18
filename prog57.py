@@ -3,15 +3,16 @@ print("=== LISTA DE COMPRAS DO MERCADO ===")
 while True:
 
     produto = input("adicione um produto em sua lista de compras: ")
-    if produto == "sair":
+    if produto.lower() == "sair":
         print("saindo da lista...")
         break
 
-    lista_mercado.append(produto)
-    print(f"{produto} foi adicionado a sua lista")
+    if produto in lista_mercado:
+        print("produto ja cadastrado")
+    else:
+        lista_mercado.append(produto)       
+        for lista in lista_mercado:
+            print(lista)
+total_itens = len(lista_mercado)
+print(f"tem {total_itens} itens em sua lista")
 
-for item in lista_mercado:
-    print(item)
-    
-itens_totais = len(lista_mercado)
-print(f"voce tem {itens_totais} de itens em sua lista")
