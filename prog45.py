@@ -1,5 +1,5 @@
 total = ""
-print("---TABLA DE PRODUTOS PARA REFERENCIA---")
+print("---TABELA DE PRODUTOS PARA REFERENCIA---")
 print("001 - ARROZ (R$4.00)")
 print("002 - FEIJAO (R$7.00)")
 print("003 - MACARRAO (R$5.00)")
