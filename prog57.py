@@ -15,4 +15,3 @@ while True:
             print(lista)
 total_itens = len(lista_mercado)
 print(f"tem {total_itens} itens em sua lista")
-
